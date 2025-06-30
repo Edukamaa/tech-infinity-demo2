@@ -1,0 +1,15 @@
+.section-header {
+  margin-bottom: 2rem;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #002147; /* navy */
+}
+
+.section-subtitle {
+  font-size: 1rem;
+  color: #555;
+}

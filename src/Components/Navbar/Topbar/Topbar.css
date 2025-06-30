@@ -1,0 +1,36 @@
+.topbar {
+  background-color: #002147; /* Navy Blue */
+  padding: 6px 20px;
+  font-size: 0.95rem;
+  color: #fff;
+}
+
+.topbar .contact-info span {
+  color: #fff;
+}
+
+.social-icons a {
+  color: #fff;
+  margin-left: 15px;
+  font-size: 1.1rem;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #d62828; /* red */
+}
+
+@media (max-width: 576px) {
+  .topbar {
+    text-align: center;
+  }
+
+  .contact-info {
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .social-icons {
+    margin-top: 5px;
+  }
+}

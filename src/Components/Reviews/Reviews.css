@@ -1,0 +1,52 @@
+/* Section title styles */
+.section-title {
+  font-weight: 700;
+  color: #002147;
+}
+
+.section-subtitle {
+  color: #555;
+  font-size: 1rem;
+}
+
+/* Review card styles */
+.review-card {
+  background: #f9f9f9;
+  border: none;
+  border-radius: 12px;
+  height: 100%;
+}
+
+.review-img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #eee;
+}
+
+/* Arrows at far left and right */
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+}
+
+/* Arrow design */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #002147;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect turns red */
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+  background-color: red;
+}

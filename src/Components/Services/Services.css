@@ -1,0 +1,30 @@
+.service-card {
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s;
+  background-color: #fff;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.service-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #002147;
+}
+
+.service-description {
+  font-size: 0.95rem;
+  color: #555;
+}
+.service-card .btn:hover {
+  background-color: #b51d1d; /* darker red */
+}

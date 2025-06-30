@@ -1,0 +1,26 @@
+.navbar-custom {
+  background-color: transparent;
+  padding: 6px 20px;
+}
+
+.brand-name {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: black;
+}
+
+.nav-link {
+  color: black !important;
+  font-weight: 500;
+  margin-left: 20px;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #d62828 !important; /* red */
+}
+
+.logo {
+  height: 50px;
+  margin-right: 16px;
+}

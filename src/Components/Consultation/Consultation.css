@@ -1,0 +1,40 @@
+.consultation-section {
+  background-size: cover;
+  background-position: center;
+  padding: 100px 20px;
+  position: relative;
+}
+
+.consultation-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* Dark overlay */
+  z-index: 1;
+}
+
+.consultation-section .container {
+  position: relative;
+  z-index: 2;
+}
+
+.consultation-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.consultation-subtitle {
+  font-size: 1.1rem;
+  margin-bottom: 25px;
+  color: #ddd;
+}
+
+.consultation-btn {
+  padding: 10px 30px;
+  font-weight: bold;
+  font-size: 1rem;
+}
