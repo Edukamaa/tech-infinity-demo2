@@ -2,7 +2,7 @@ import React from 'react';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import './TopBar.css';
 
-const TopBar = () => {
+const Topbar = () => {
   return (
     <div className="topbar">
       <div className="container d-flex flex-column flex-md-row justify-content-between align-items-center">
@@ -23,4 +23,4 @@ const TopBar = () => {
   );
 };
 
-export default TopBar;
+export default Topbar;
