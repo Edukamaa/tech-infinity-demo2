@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap-icons/font/bootstrap-icons.css';
-import './TopBar.css';
+import './Topbar.css';
 
 const Topbar = () => {
   return (
